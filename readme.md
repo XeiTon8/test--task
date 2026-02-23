@@ -20,16 +20,16 @@ The app is running entirely in Docker containers.
 
 ## Getting Started
 
-### 1 Clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone <repo_url>
+git clone <https://github.com/XeiTon8/test--task.git>
 cd test--task
 ```
-### 2 Create .env file
+### 2. Create .env file
 Create a .env file in the root folder based on the example provided in .env.example. Include API key and Google Spreadsheets credentials.
 
-### 3 Run Docker
+### 3. Run Docker
 Use Docker commands:
 ```bash
 docker compose down -v
