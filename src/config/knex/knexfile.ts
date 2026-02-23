@@ -44,7 +44,7 @@ const knegConfigs: Record<typeof NODE_ENV, Knex.Config> = {
         connection: () =>
             connectionSchema.parse({
                 host: env.POSTGRES_HOST,
-                port: env.POSTGRES_PORT,
+                port: Number(env.POSTGRES_PORT),
                 database: env.POSTGRES_DB,
                 user: env.POSTGRES_USER,
                 password: env.POSTGRES_PASSWORD,
